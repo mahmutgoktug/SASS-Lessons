@@ -46,7 +46,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px; }
-    .container .login-content .login-content input {
+    .container .login-content input {
       height: 50px;
       padding: 0 20px;
       border: 2px solid #dbdbdb;
@@ -61,6 +61,9 @@ body {
       .container .login-footer .login-footer a:hover {
         color: black; }
 
+.egim, .login-footer a:first-child, .signup a {
+  transition: 300ms all; }
+
 .login-footer a:first-child {
   background-color: royalblue;
   width: 90px;
@@ -68,16 +71,14 @@ body {
   text-align: center;
   line-height: 40px;
   color: white;
-  border-radius: 3px;
-  transition: 300ms all; }
+  border-radius: 3px; }
 
 .login-footer a:first-child:hover {
   background-color: black; }
 
 .signup a {
   display: block;
-  color: white;
-  transition: 300ms all; }
+  color: white; }
 
 .signup a:hover {
   text-decoration: underline; }
