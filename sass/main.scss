@@ -10,6 +10,12 @@ $size: 400px;
 }
 */
 
+@mixin border-radius ($par){
+    -o-border-radius: $par;
+    -moz-border-radius: $par;
+    -webkit-border-radius: $par;
+    border-radius: $par;
+}
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +39,7 @@ body {
 .container {
     width: 400px;
     background-color: white;
-    border-radius: 3px;
+    @include border-radius(3px);
     padding: 30px;
     margin-bottom: 30px;
 }

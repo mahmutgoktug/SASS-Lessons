@@ -32,6 +32,9 @@ body {
 .container {
   width: 400px;
   background-color: white;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
   padding: 30px;
   margin-bottom: 30px; }
