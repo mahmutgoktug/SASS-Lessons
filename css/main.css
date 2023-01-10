@@ -80,31 +80,16 @@ p {
   color: white; }
 
 .item-1 {
-  background: yellow;
-  padding: 20px;
-  width: 200px;
-  margin-bottom: 30px; }
+  font-size: 15px; }
 
 .item-2 {
-  background: white;
-  padding: 20px;
-  width: 200px;
-  margin-bottom: 30px; }
+  font-size: 30px; }
 
 .item-3 {
-  background: red;
-  padding: 20px;
-  width: 200px;
-  margin-bottom: 30px; }
+  font-size: 45px; }
 
 .item-4 {
-  background: grey;
-  padding: 20px;
-  width: 200px;
-  margin-bottom: 30px; }
+  font-size: 60px; }
 
 .item-5 {
-  background: green;
-  padding: 20px;
-  width: 200px;
-  margin-bottom: 30px; }
+  font-size: 75px; }

@@ -92,29 +92,40 @@ p {
     }
 }
 
-/* Sass kodları 
-@for $i from 1 through 5 {
+
+    /* Sass kodları 
+    @for $i from 1 through 5 {
+        .item-#{$i} {
+            width: 100px * $i;
+            padding: 5px * $i;
+            background-color: white;
+            margin-bottom: 10px;
+        }
+    } */
+
+    /*
+    $yellow: yellow;
+    $white: white;
+    $red: red;
+    $grey: grey;
+    $green: green;
+
+    $dizi: $yellow, $white, $red, $grey, $green;
+
+    @for $i from 1 through length($dizi) {
+        .item-#{$i} {
+            background: nth($dizi , $i);
+            padding: 20px;
+            width: 200px;
+            margin-bottom: 30px;
+        }
+    } */
+
+
+$dizi : 1, 2, 3, 4, 5;
+
+@each $i in $dizi {
     .item-#{$i} {
-        width: 100px * $i;
-        padding: 5px * $i;
-        background-color: white;
-        margin-bottom: 10px;
-    }
-} */
-
-$yellow: yellow;
-$white: white;
-$red: red;
-$grey: grey;
-$green: green;
-
-$dizi: $yellow, $white, $red, $grey, $green;
-
-@for $i from 1 through length($dizi) {
-    .item-#{$i} {
-        background: nth($dizi , $i);
-        padding: 20px;
-        width: 200px;
-        margin-bottom: 30px;
+        font-size: $i * 15px; 
     }
 }
