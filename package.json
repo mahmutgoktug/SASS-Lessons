@@ -1,0 +1,22 @@
+{
+  "name": "sass-lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmutgoktug/SASS-Lessons.git"
+  },
+  "author": "Redesign34",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahmutgoktug/SASS-Lessons/issues"
+  },
+  "homepage": "https://github.com/mahmutgoktug/SASS-Lessons#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
