@@ -65,3 +65,29 @@
 .signup a:hover{
     text-decoration: underline;
 }
+
+/* Sass kodları */
+$size: 5;
+$padding: 10px;
+$black: black;
+$white: white;
+$crimson: crimson;
+$blue: blue;
+
+p {
+    @if $size==6 {
+        background-color: $black;
+        padding: $padding;
+        color: $black;
+    }
+    @else if ($size <= 2) {
+        background-color: $white;
+        padding: $padding;
+        color: $black;
+    }
+    @else {
+        background-color: $blue;
+        padding: $padding;
+        color: $white;
+    }
+}

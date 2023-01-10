@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -71,3 +72,9 @@ body {
 
 .signup a:hover {
   text-decoration: underline; }
+
+/* Sass kodları */
+p {
+  background-color: blue;
+  padding: 10px;
+  color: white; }
