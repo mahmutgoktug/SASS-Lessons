@@ -91,3 +91,13 @@ p {
         color: $white;
     }
 }
+
+/* Sass kodları */
+@for $i from 1 through 5 {
+    .item-#{$i} {
+        width: 100px * $i;
+        padding: 5px * $i;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+}
