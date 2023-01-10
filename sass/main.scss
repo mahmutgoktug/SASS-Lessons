@@ -1,4 +1,9 @@
-$degisken: white;
-body {
-    background-color: $degisken;
+$degisken-adi: blue;
+$color: red;
+$size: 400px;
+
+.box {
+    width: $size;
+    background-color: $degisken-adi;
+    color: white;
 }
